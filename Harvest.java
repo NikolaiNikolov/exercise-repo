@@ -8,9 +8,9 @@ public class Harvest {
         int z = Integer.parseInt(console.nextLine());
         int workers = Integer.parseInt(console.nextLine());
         double sumGrapes = x * y;
-        double wine = (sumGrapes * 0.40) / 2.5;
+        double wine = (sumGrapes * 0.50) / 3;
         if (wine >= z) {
-            System.out.printf("Good harvest this year! Total wine: %d liters.%n", (int)(wine));
+            System.out.printf("Nice harvest this year! Total wine: %d liters.%n", (int)(wine));
             double result1 = (Math.ceil(wine - z));
             System.out.printf("%d liters left -> %d liters per person.", (int)result1, (int)(Math.ceil((wine - z) / workers)));
         } else if (wine < z) {

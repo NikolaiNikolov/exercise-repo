@@ -21,15 +21,15 @@ public class MatchTickets {
         double moneyLeft = budget - transportPrice;
         if (category.equalsIgnoreCase("VIP")) {
             if (moneyLeft >= (499.99 * people)) {
-                System.out.printf("Yes! You have %.2f leva left.", moneyLeft - 499.99 * people);
+                System.out.printf("Yes! You have %.2f euro left.", moneyLeft - 499.99 * people);
             } else if (moneyLeft <= 499.99 * people) {
-                System.out.printf("Not enough money! You need %.2f leva.", 499.99 * people - moneyLeft);
+                System.out.printf("Money not enough! You need %.2f leva.", 499.99 * people - moneyLeft);
             }
         } else if (category.equalsIgnoreCase("Normal")) {
             if (moneyLeft >= (249.99 * people)) {
-                System.out.printf("Yes! You have %.2f leva left.", moneyLeft - 249.99 * people);
+                System.out.printf("Yes! You have %.2f euro left.", moneyLeft - 249.99 * people);
             } else if (moneyLeft <= 249.99 * people) {
-                System.out.printf("Not enough money! You need %.2f leva.", 249.99 * people - moneyLeft);
+                System.out.printf("Not enough money! You need %.2f euro.", 249.99 * people - moneyLeft);
             }
         }
 
