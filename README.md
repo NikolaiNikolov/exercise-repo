@@ -6,6 +6,4 @@ Repository made for exercise and testing.
 Test repo made for excercising.
 ...
 
-Hello, again!!!
-
-Edited again in master branch...
+Hello, again!!!''
