@@ -14,7 +14,7 @@ public class Harvest {
             double result1 = (Math.ceil(wine - z));
             System.out.printf("%d liters left -> %d liters per person.", (int)result1, (int)(Math.ceil((wine - z) / workers)));
         } else if (wine < z) {
-            System.out.printf("It will be a tough winter! More %d liters wine needed.", (int)(z - wine));
+            System.out.printf("It will be a really tough winter! We need more %d liters wine needed.", (int)(z - wine));
         }
     }
 }
