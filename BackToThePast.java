@@ -19,9 +19,9 @@ public class BackToThePast {
             age++;
         }
         if (budget >= 0) {
-            System.out.printf("Yes! He will live a carefree life and will have %.2f dollars left.", budget);
+            System.out.printf("Yes! He will live a carefree life and will have %.2f leva left.", budget);
         } else {
-            System.out.printf("He will need %.2f dollars to survive.", budget - budget - budget);
+            System.out.printf("Not enough! He will need %.2f leva to survive.", budget - budget - budget);
         }
     }
 }
