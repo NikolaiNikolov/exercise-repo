@@ -1,2 +1,3 @@
 # exercise-repo
-Repo made for excercise.
+Test repo made for excercising.
+...
